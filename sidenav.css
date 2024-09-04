@@ -1,0 +1,164 @@
+body{
+    font-family:Montserrat;;
+}
+/* header css */
+.head-content{
+    padding: 12px 22px;
+}
+.head-content span{
+    display: inline-block;
+    color: #005447;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 12px;
+    padding-right: 30px;
+  
+}
+input[type=text] {
+   width: 370px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search-normal.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-left: 50px;  
+  }
+
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.head-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-right: 50px;
+
+}
+.head-nav ul  li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.profile {
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 10px;
+
+}
+.profile h4{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #30343D;
+}
+.profile p{
+    color: #8B8B94;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.nav-div img{
+    padding-left: ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+   
+}
+
+
+
+
+/* side navigation */
+.side-nav, ul, li{
+    list-style: none;
+    padding: 12px 20px;
+    color: #737376;
+   
+
+}
+.side-nav, ul, li a{
+    text-decoration: none;
+    color: #737376;
+    font-size: 14px;
+    
+}
+.active{
+    background-color: #008F78;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.side-nav img{
+    padding: 0 10px;
+}
+.bord-area{
+    background-color: #EDF6F9;
+    padding: 20px;
+}
+.bord-area .onboard {
+    background-color: #F4EFF3;
+    padding: 23px;
+    position: relative;
+    
+}
+.onboard h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 18px;
+    
+}
+.onboard p{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #313131;
+    line-height: 1.6;
+}
+.cnt-btn{
+    width: 200px;
+    padding: 10px;
+    color: #313131;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+    position: absolute;
+    right: 23px;
+    bottom: 23px;
+    border-radius: 5px;
+}
+
+/*  */
+
+.cert-section{
+    padding-top: 12px;
+}
+.cert-section .next-sec{
+    background-color: #FFFFFF;
+    
+}
+.cert-section .next-sec h3{
+    font-size: 16px;
+    color: #111111;
+    padding: 10px 24px;
+    border-bottom: 1px solid #ECECEC;
+}
+.img-sectuion{
+    text-align: center;
+    padding: 40px;
+}
+.img-sectuion h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #646464;
+    padding-bottom: 40px;
+}
