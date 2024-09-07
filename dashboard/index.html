@@ -4,25 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="sidenav.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="js/include.js" defer></script>
+    <meta name="viewport" content="width=1024">
 
     <title>Client Portal</title>
 </head>
 
 <body>
-
     <header>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row header-section">
                 <div class="col-md-6">
                     <div class="head-content">
-                        <img src="head-img.png" alt="header-logo-img">
-                        <span>Halal India</span>
+                        <img src="../images/head-img.png" alt="header-logo-img">
+                        <span class="">Halal India</span>
 
                         <input type="text" name="search" placeholder="Search for services">
                     </div>
@@ -30,8 +32,8 @@
                 <div class="col-md-6 nav-div">
                     <div class="head-nav">
                         <ul>
-                            <li><a href="#about">About us</a></li>
-                            <li><a href="#about">Help</a></li>
+                            <li class=""><a href="#about ">About us</a></li>
+                            <li class=""><a href="#about">Help</a></li>
                         </ul>
                     </div>
                     <div class="profile">
@@ -39,24 +41,23 @@
                         <p>18 April 2022, 11:34 am</p>
 
                     </div>
-                    <img src="profile-img.png" alt="profile-image">
+                    <img src="../images/profile-img.png" alt="profile-image">
 
 
                 </div>
             </div>
         </div>
     </header>
-
     <section>
         <div class="container-fluid">
-            <div class="row side-navbar">
-                <div class="col-md-2">
+            <div class="row ">
+               <div class="col-md-2 side-navbar">
                     <ul class="side-nav">
-                        <li class="active" href="#"><a><img src="dashboard-icon.png">Dashboard</a></li>
-                        <li><a href="#"><img src="user.png">Profile</a></li>
-                        <li><a href="#"><img src="notification.png">Notification</a></li>
-                        <li><a href="#"><img src="messages.png">Inbox</a></li>
-                        <li><a href="#"><img src="document.png">Certification</a></li>
+                        <li class="active" href="index.html"><a><img src="../images/dashboard-icon.png">Dashboard</a></li>
+                         <li><a href="../com&director-profile/profilepage1.html"><img src="../images//user.png">Profile</a></li>
+                        <li><a href="../notification/notification.html"><img src="../images/notification.png">Notification</a></li>
+                        <li><a href="../inbox/inbox.html"><img src="../images/messages.png">Inbox</a></li>
+                        <li><a href="../NDA,s/certificationpage1.html"><img src="../images/document.png">Certification</a></li>
                     </ul>
                 </div>
                 <div class="col-md-10 bord-area">
@@ -64,14 +65,14 @@
                         <h2 class="">😁 Welcome onboard</h2>
                         <p>Complete your company profile details to<br>
                             initiate the certification process</p>
-                        <button class="cnt-btn">Continue</button>
+                        <a href="dashboard2.html" class="cnt-btn">Continue</a>
                     </div>
                     <div class="row cert-section">
                         <div class="col-md-6">
                             <div class="next-sec">
                                 <h3>Certificate</h3>
                                 <div class="img-sectuion">
-                                    <img src="papers.png" alt="certificate-paper-img">
+                                    <img src="../images/papers.png" alt="certificate-paper-img">
                                     <h4>You’re yet to certified</h4>
                                 </div>
                             </div>
@@ -80,7 +81,7 @@
                             <div class="next-sec">
                                 <h3>Reports</h3>
                                 <div class="img-sectuion">
-                                    <img src="folder-empty.png" alt="certificate-paper-img">
+                                    <img src="../images/folder-empty.png" alt="certificate-paper-img">
                                     <h4>No reports found</h4>
                                 </div>
                             </div>
@@ -94,8 +95,5 @@
         </div>
     </section>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
 
 </html>

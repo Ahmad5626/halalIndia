@@ -162,3 +162,20 @@ input[type=text] {
     color: #646464;
     padding-bottom: 40px;
 }
+
+
+@media (min-width: 992px) {
+    .head-content {
+        justify-content: flex-start;
+    }
+
+    .nav-div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .profile {
+        margin-right: 20px;
+    }
+}

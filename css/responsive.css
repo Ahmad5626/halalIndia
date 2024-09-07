@@ -1,0 +1,27 @@
+/* Apply styles for desktop only */
+@media only screen and (min-width: 1024px) {
+    /* Your desktop-specific styles */
+    body {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  /* Non-responsive for tablets and mobile devices (less than 1024px) */
+  @media only screen and (max-width: 1023px) {
+    /* Make a fixed layout for tablet and mobile */
+    body {
+      width: 1024px; /* Fixed width for tablet/mobile */
+      overflow-x: scroll; /* Enable horizontal scrolling if content overflows */
+    }
+  
+    .container {
+      display: block;
+    }
+  }
