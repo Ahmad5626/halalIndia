@@ -95,8 +95,8 @@
 /* Chat Box Container */
 .chat-box {
    
-    max-height: 75%;
-    height: 75%;
+    max-height: 70%;
+    height: 70%;
     overflow-y: auto;
     padding: 20px;
     background-color: #f8f9fa;
@@ -158,6 +158,20 @@
     margin-left: 5px;
 }
 
+
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightblue; /* Color of the scrollbar */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Background of the scrollbar track */
+}
+
      
             </style>
 </head>
@@ -208,9 +222,11 @@
                        
                     </ul>
                 </div>
+
+
                 <div class="col-md-10 cmp-pro" style="background-color: #EDF6F8;padding: 20px; ">
-                    <div class="inbox row m-0" >
-                        <div class="col-4 p-0 m-0" id="messgelist" >
+                    <div class="inbox row m-0 p-0" >
+                        <div class="col-4 p-0 m-0  ms-2 p-1" id="messgelist" style="background-color: #FFFFFF; height: 87vh;border-radius: 10px; "  >
                            <div class="row ">
                             <div class="col-12">
                                 <h3>Inbox</h3>
@@ -221,7 +237,7 @@
                            </div>
                            <div class=" list row ">
                             <div class="col-12 mt-2">
-                                <div class="message-list">
+                                <div class="message-list " style="overflow-y: scroll; height:74vh;">
 
                                     <!-- User 1 -->
                                     <div class="message-item d-flex align-items-center p-3 mb-2 bg-white">
@@ -237,6 +253,8 @@
                                             <p class="text-muted mb-0">Sure sir. It will resolve within one</p>
                                         </div>
                                     </div>
+
+                                  
                             
                                     <!-- User 2 -->
                                     <div class="message-item d-flex align-items-center p-3 mb-2 bg-white">
@@ -300,6 +318,49 @@
                                         </div>
                                     </div>
 
+                                    <div class="message-item d-flex align-items-center p-3 mb-2 bg-white">
+                                        <div class="badge-circle bg-warning text-white me-3">AK</div>
+                                        <div class="d-flex flex-column w-100">
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <span class="fw-bold">Aslam Khan</span>
+                                                    <span class="badge bg-light text-dark ms-2">Shariah</span>
+                                                </div>
+                                                <small class="text-muted">1 hour ago</small>
+                                            </div>
+                                            <p class="text-muted mb-0">Sure sir. It will resolve within one</p>
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="message-item d-flex align-items-center p-3 mb-2 bg-white">
+                                        <div class="badge-circle bg-warning text-white me-3">AK</div>
+                                        <div class="d-flex flex-column w-100">
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <span class="fw-bold">Aslam Khan</span>
+                                                    <span class="badge bg-light text-dark ms-2">Shariah</span>
+                                                </div>
+                                                <small class="text-muted">1 hour ago</small>
+                                            </div>
+                                            <p class="text-muted mb-0">Sure sir. It will resolve within one</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="message-item d-flex align-items-center p-3 mb-2 bg-white">
+                                        <div class="badge-circle bg-warning text-white me-3">AK</div>
+                                        <div class="d-flex flex-column w-100">
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <span class="fw-bold">Aslam Khan</span>
+                                                    <span class="badge bg-light text-dark ms-2">Shariah</span>
+                                                </div>
+                                                <small class="text-muted">1 hour ago</small>
+                                            </div>
+                                            <p class="text-muted mb-0">Sure sir. It will resolve within one</p>
+                                        </div>
+                                    </div>
+
 
                                     <div class="message-item d-flex align-items-center p-3 mb-2 bg-white">
                                         <div class="badge-circle bg-secondary text-white me-3">AH</div>
@@ -324,15 +385,15 @@
                            </div>
                        
 
-                        <div class="col-8">
+                        <div class="col-7 mx-3" style="background-color: #FFFFFF;  height: 87vh; border-radius: 10px;">
                             <!-- <div class="col-12 p-0 m-0" id="chatSection"> -->
                                 <div class="container mt-4 " style="height:90vh;" >
                                     <!-- Chat header -->
                                     <div class="chat-header d-flex align-items-center mb-4 ">
                                         <div class="badge-circle bg-primary text-white me-3">SK</div>
-                                        <div class="d-flex flex-column">
-                                            <h5 class="mb-0">Shahveer Ahmed</h5>
-                                            <span class="badge bg-light text-dark">CRM</span>
+                                        <div class="d-flex flex-row">
+                                            <h5 class="mb-0 mx-3">Shahveer Ahmed</h5>
+                                            <span class="badge bg-warning text-dark">CRM</span>
                                         </div>
                                     </div>
                                 
@@ -363,6 +424,11 @@
                                             <p class="chat-message-right">I'm just browsing!</p>
                                             <small class="text-muted">2m ago. Seen</small>
                                         </div>
+
+                                        <div class="message-left">
+                                            <p class="chat-message">I am glad you like our service sir</p>
+                                        </div>
+                                        
                                         <div class="message-right">
                                             <p class="chat-message-right">Where can I download my</p>
                                         </div>
