@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/servicepro.css">
+    <link rel="stylesheet" type="text/css" href="./service.css">
+
     <link rel="stylesheet" type="text/css" href="./service14.css">
 
 
@@ -20,78 +21,88 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="row header-section">
-                <div class="col-md-6">
-                    <div class="head-content">
-                        <img src="../images/head-img.png" alt="header-logo-img">
-                        <span class="">Halal India</span>
-
-                        <input type="text" name="search" placeholder="Search for services">
-                    </div>
+    <header class="bg-white shadow-sm">
+        <div class="container-fluid row py-2">
+            <div class="col-md-6 d-flex align-items-center gap-5 px-5">
+                <div class="d-flex align-items-center">
+                    <img src="../images/head-img.png" alt="logo">
+                    <span class="ms-1 text-success fw-medium text-nowrap">Halal India</span>
                 </div>
-                <div class="col-md-6 nav-div">
-                    <div class="head-nav">
-                        <ul>
-                            <li class=""><a href="#about ">About us</a></li>
-                            <li class=""><a href="#about">Help</a></li>
-                        </ul>
+                <div class="border rounded-2 p-2 d-flex align-items-center">
+                    <img src="../images/search-normal.png" class="me-2" alt="">
+                    <input type="text" name="search" class="border-0" style="outline: none;"
+                        placeholder="Search for services">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-end gap-5 px-5">
+                <div class="d-flex gap-5">
+                    <a href="" class="text-decoration-none text-dark text-nowrap">About us</a>
+                    <a href="" class="text-decoration-none text-dark">Help</a>
+                </div>
+                <div class="p-2 d-flex align-items-center">
+                    <div class="d-flex flex-column text-end">
+                        <p class="m-0 p-0 fw-medium text-nowrap">Atif Khan</p>
+                        <p class="m-0 p-0 text-secondary" style="font-size: 12px;">18 April 2022, 11:34 am</p>
                     </div>
-                    <div class="profile">
-                        <h4>Atif khan<br></h4>
-                        <p>18 April 2022, 11:34 am</p>
-
-                    </div>
-                    <img src="../images/profile-img.png" alt="profile-image">
-
-
+                    <img src="../images/dp.jpg" class="rounded-circle ms-2"
+                        style="width: 48px; height: 48px; object-fit: cover;" alt="">
                 </div>
             </div>
         </div>
     </header>
-    <div data-include="header.html"></div>
+
     <section>
         <div class="container-fluid">
             <div class="row side-navbar">
                 <div class="col-md-2">
                     <ul class="side-nav">
-                        <li ><a href="../index.html"><img src="../images/home-2.png">Dashboard</a></li>
-                        <li ><a href="../com&director-profile/profilepage1.html" ><img src="../images/user.png">Profile</a></li>
+                        <li><a href="../index.html"><img src="../images/home-2.png">Dashboard</a></li>
+                        <li><a href="../com&director-profile/profilepage1.html"><img
+                                    src="../images/user.png">Profile</a></li>
                         <li><a href="notification.html"><img src="../images/notification.png">Notification</a></li>
                         <li><a href="inbox.html"><img src="../images/messages.png">Inbox</a></li>
-                        <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img src="../images/document1.png">Certification</a></li>
+                        <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img
+                                    src="../images/document1.png">Certification</a></li>
                     </ul>
                 </div>
                 <div class="col-md-10 cmp-pro" style="background-color: #EDF6F8;padding: 20px;">
                     <div class="row tap-section p-3" style="background-color: #FFFFFF;">
                         <ul class="nav nav-tabs my-3">
                             <li><a href="certificationpage1.html">Agreements & NDAs</a></li>
-                            <li><a href="certificationpage2.html" >Halal certification application form</a></li>
-                            <li><a href="servicelist.html" style="color: #0072DA; border-bottom: 1px solid #0072DA;">Service Listing</a></li>
+                            <li><a href="certificationpage2.html">Halal certification application form</a></li>
+                            <li><a href="servicelist.html"
+                                    style="color: #0072DA; border-bottom: 1px solid #0072DA;">Service Listing</a></li>
 
 
                         </ul>
-                        <div class="row service-tab" style="background-color: #F9FAFC;">
-                            <div class="col-md-12">
-                                <a class="btn btn-light" href="certificatepage3.html">Product listing</a>
-                                <a class="btn btn-light" href="certificatepage4.html">Raw material / Ingredient list</a>
-                                <a class="btn btn-primary" style="color: #fff;" href="productspecification.html">Product specification</a>
-                                <a class="btn btn-light" href="productInformation.html">COA (Certificate of analysis)</a>
-                                <a class="btn btn-light" href="productInformation.html">Post Audit declaration</a>
-                                <a class="btn btn-light" href="productInformation.html">Supplier declaration</a>
-                                <a class="btn btn-light" href="productInformation.html">Menu list </a>
-                            </div>
+                        <div class="service-tab">
+                            <a class="btn completed" style="color: #fff;" href="./servicepro12.html">Product
+                                listing</a>
+                            <a class="btn completed" href="./servicepro13.html">Raw material / Ingredient list</a>
+                            <a class="btn active" href="#">Product specification</a>
+                            <a class="btn" href="./servicepro15.html">COA (Certificate of
+                                analysis)</a>
+                            <a class="btn" href="#">Post Audit declaration</a>
+                            <a class="btn" href="#">Supplier declaration</a>
+                            <a class="btn" href="./servicepro16.html">Menu list </a>
+                            <a class="btn" href="#">Star hotels and hospitality
+                                service list</a>
+                            <a class="btn" href="#">Hospital and Health care
+                                service
+                                list</a>
+                            <a class="btn" href="./servicepro17.html">Meat procurement list</a>
                         </div>
                     </div>
 
                     <div class="row company-profile" style="background-color: #FFFFFF;">
                         <hr>
-                        <div class="cmp-pro-head mt-1 py-2" >
+                        <div class="cmp-pro-head mt-1 py-2">
                             <h2>Product Specification</h2>
-                            <div class="crt-btn"> 
-                                <a class="crt-btn1" href="#."><img src="../images//download2.png" alt="download">Download</a>
-                                <a class="btn btn-success" href="#." style="border-radius: 50px; padding: 5px 15px;">Accepted</a>
+                            <div class="crt-btn">
+                                <a class="crt-btn1" href="#."><img src="../images//download2.png"
+                                        alt="download">Download</a>
+                                <a class="btn btn-success" href="#."
+                                    style="border-radius: 50px; padding: 5px 15px;">Accepted</a>
                             </div>
 
                         </div>
@@ -100,8 +111,8 @@
                             <div class="col-md-2">
                                 <div class="product-group">
                                     <button type="button" class="fisrt-product">Protein bar</button>
-                                    <button type="button" class="btn-product" >Sprinkles</button>
-                                    <button type="button"  class="btn-product">Chicken Chips</button>
+                                    <button type="button" class="btn-product">Sprinkles</button>
+                                    <button type="button" class="btn-product">Chicken Chips</button>
                                     <button type="button" class="btn-product">Protein chocolate</button>
                                 </div>
                             </div>
@@ -122,11 +133,15 @@
                                 </div>
                                 <div class="col-md-8 pt-4 submitdata-sec">
                                     <p>Product Description</p>
-                                    <span>Eggs Introducing our high-quality protein bar made with beef, specially crafted to enhance your health and endurance. Packed with essential nutrients, this protein bar is a convenient snack option for those looking to fuel their active lifestyle.</span>
+                                    <span>Eggs Introducing our high-quality protein bar made with beef, specially
+                                        crafted to enhance your health and endurance. Packed with essential nutrients,
+                                        this protein bar is a convenient snack option for those looking to fuel their
+                                        active lifestyle.</span>
                                 </div>
                                 <div class="col-md-4 pt-4 submitdata-sec">
                                     <p>Product Application</p>
-                                    <span>Our protein bar is made from premium quality beef, which is an excellent source of protein</span>
+                                    <span>Our protein bar is made from premium quality beef, which is an excellent
+                                        source of protein</span>
                                 </div>
                                 <div class="col-md-4 pt-4 submitdata-sec">
                                     <p>Product Appearance</p>
@@ -145,15 +160,15 @@
                                     <span>Processing aid sodium sterol lactylate, antimicrobial agents</span>
                                 </div>
                                 <div class="col-md-4 pt-4 submitdata-sec"></div>
-                                    <p>Other Miscellaneous Ingredients</p>
-                                    <span>None</span>
-                                </div>
+                                <p>Other Miscellaneous Ingredients</p>
+                                <span>None</span>
                             </div>
-                           
-                            <div class="form-btn doc-btn">
-                                <a class="" href="./servicepro13.html">Back</a>
-                                <a class="active" href="./servicepro15.html" style="color: #fff;">Accept & Continue</a>
-                            </div>
+                        </div>
+
+                        <div class="form-btn doc-btn">
+                            <a class="" href="./servicepro13.html">Back</a>
+                            <a class="active" href="./servicepro15.html" style="color: #fff;">Accept & Continue</a>
+                        </div>
                     </div>
                 </div>
             </div>

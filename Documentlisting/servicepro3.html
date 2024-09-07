@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/servicepro.css">
+    <link rel="stylesheet" type="text/css" href="./service.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,47 +20,48 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="row header-section">
-                <div class="col-md-6">
-                    <div class="head-content">
-                        <img src="../images/head-img.png" alt="header-logo-img">
-                        <span class="">Halal India</span>
-
-                        <input type="text" name="search" placeholder="Search for services">
-                    </div>
+    <header class="bg-white shadow-sm">
+        <div class="container-fluid row py-2">
+            <div class="col-md-6 d-flex align-items-center gap-5 px-5">
+                <div class="d-flex align-items-center">
+                    <img src="../images/head-img.png" alt="logo">
+                    <span class="ms-1 text-success fw-medium text-nowrap">Halal India</span>
                 </div>
-                <div class="col-md-6 nav-div">
-                    <div class="head-nav">
-                        <ul>
-                            <li class=""><a href="#about ">About us</a></li>
-                            <li class=""><a href="#about">Help</a></li>
-                        </ul>
+                <div class="border rounded-2 p-2 d-flex align-items-center">
+                    <img src="../images/search-normal.png" class="me-2" alt="">
+                    <input type="text" name="search" class="border-0" style="outline: none;"
+                        placeholder="Search for services">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-end gap-5 px-5">
+                <div class="d-flex gap-5">
+                    <a href="" class="text-decoration-none text-dark text-nowrap">About us</a>
+                    <a href="" class="text-decoration-none text-dark">Help</a>
+                </div>
+                <div class="p-2 d-flex align-items-center">
+                    <div class="d-flex flex-column text-end">
+                        <p class="m-0 p-0 fw-medium text-nowrap">Atif Khan</p>
+                        <p class="m-0 p-0 text-secondary" style="font-size: 12px;">18 April 2022, 11:34 am</p>
                     </div>
-                    <div class="profile">
-                        <h4>Atif khan<br></h4>
-                        <p>18 April 2022, 11:34 am</p>
-
-                    </div>
-                    <img src="../images/profile-img.png" alt="profile-image">
-
-
+                    <img src="../images/dp.jpg" class="rounded-circle ms-2"
+                        style="width: 48px; height: 48px; object-fit: cover;" alt="">
                 </div>
             </div>
         </div>
     </header>
-    <div data-include="header.html"></div>
+
     <section>
         <div class="container-fluid">
             <div class="row side-navbar">
                 <div class="col-md-2">
                     <ul class="side-nav">
-                        <li ><a href="../index.html"><img src="../images/home-2.png">Dashboard</a></li>
-                        <li ><a href="../com&director-profile/profilepage1.html" ><img src="../images/user.png">Profile</a></li>
+                        <li><a href="../index.html"><img src="../images/home-2.png">Dashboard</a></li>
+                        <li><a href="../com&director-profile/profilepage1.html"><img
+                                    src="../images/user.png">Profile</a></li>
                         <li><a href="notification.html"><img src="../images/notification.png">Notification</a></li>
                         <li><a href="inbox.html"><img src="../images/messages.png">Inbox</a></li>
-                        <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img src="../images/document1.png">Certification</a></li>
+                        <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img
+                                    src="../images/document1.png">Certification</a></li>
                     </ul>
                 </div>
                 <div class="col-md-10 cmp-pro" style="background-color: #EDF6F8;padding: 20px;">
@@ -73,18 +74,22 @@
 
 
                         </ul>
-                        <div class="row service-tab" style="background-color: #F9FAFC;">
-                            <div class="col-md-12">
-                                <a class="btn btn-success" style="color: #fff;" href="certificatepage3.html">Product
-                                    listing</a>
-                                <a class="btn btn-primary" href="certificatepage4.html">Raw material / Ingredient list</a>
-                                <a class="btn btn-light" href="CorrespondencePerson.html">Product specification</a>
-                                <a class="btn btn-light" href="productInformation.html">COA (Certificate of
-                                    analysis)</a>
-                                <a class="btn btn-light" href="productInformation.html">Post Audit declaration</a>
-                                <a class="btn btn-light" href="productInformation.html">Supplier declaration</a>
-                                <a class="btn btn-light" href="productInformation.html">Menu list </a>
-                            </div>
+                        <div class="service-tab">
+                            <a class="btn completed" style="color: #fff;" href="./servicepro2.html">Product
+                                listing</a>
+                            <a class="btn active" href="#">Raw material / Ingredient list</a>
+                            <a class="btn" href="./servicepro4.html">Product specification</a>
+                            <a class="btn" href="./servicepro5.html">COA (Certificate of
+                                analysis)</a>
+                            <a class="btn" href="./servicepro6.html">Post Audit declaration</a>
+                            <a class="btn" href="./servicepro7.html">Supplier declaration</a>
+                            <a class="btn" href="./servicepro8.html">Menu list </a>
+                            <a class="btn" href="./servicepro9.html">Star hotels and hospitality
+                                service list</a>
+                            <a class="btn" href="./servicepro10.html">Hospital and Health care
+                                service
+                                list</a>
+                            <a class="btn" href="./servicepro11.html">Meat procurement list</a>
                         </div>
                     </div>
 
@@ -254,7 +259,8 @@
                                 </div>
                             </form>
                             <div>
-                                <button class="btn fw-bold"><i class="fa-solid fa-square-plus text-info"></i> Add more raw materials</button>
+                                <button class="btn fw-bold"><i class="fa-solid fa-square-plus text-info"></i> Add more
+                                    raw materials</button>
                             </div>
                             <div class="form-btn doc-btn">
                                 <a class="" href="./servicepro2.html">Back</a>

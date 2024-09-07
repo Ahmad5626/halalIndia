@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" type="text/css" href="./service.css">
 
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
@@ -19,32 +20,31 @@
 <body>
 
 
-    <header>
-        <div class="container-fluid">
-            <div class="row header-section">
-                <div class="col-md-6">
-                    <div class="head-content">
-                        <img src="../images/head-img.png" alt="header-logo-img">
-                        <span class="">Halal India</span>
-
-                        <input type="text" name="search" placeholder="Search for services">
-                    </div>
+    <header class="bg-white shadow-sm">
+        <div class="container-fluid row py-2">
+            <div class="col-md-6 d-flex align-items-center gap-5 px-5">
+                <div class="d-flex align-items-center">
+                    <img src="../images/head-img.png" alt="logo">
+                    <span class="ms-1 text-success fw-medium text-nowrap">Halal India</span>
                 </div>
-                <div class="col-md-6 nav-div">
-                    <div class="head-nav">
-                        <ul>
-                            <li class=""><a href="#about ">About us</a></li>
-                            <li class=""><a href="#about">Help</a></li>
-                        </ul>
+                <div class="border rounded-2 p-2 d-flex align-items-center">
+                    <img src="../images/search-normal.png" class="me-2" alt="">
+                    <input type="text" name="search" class="border-0" style="outline: none;"
+                        placeholder="Search for services">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-end gap-5 px-5">
+                <div class="d-flex gap-5">
+                    <a href="" class="text-decoration-none text-dark text-nowrap">About us</a>
+                    <a href="" class="text-decoration-none text-dark">Help</a>
+                </div>
+                <div class="p-2 d-flex align-items-center">
+                    <div class="d-flex flex-column text-end">
+                        <p class="m-0 p-0 fw-medium text-nowrap">Atif Khan</p>
+                        <p class="m-0 p-0 text-secondary" style="font-size: 12px;">18 April 2022, 11:34 am</p>
                     </div>
-                    <div class="profile">
-                        <h4>Atif khan<br></h4>
-                        <p>18 April 2022, 11:34 am</p>
-
-                    </div>
-                    <img src="../images/profile-img.png" alt="profile-image">
-
-
+                    <img src="../images/dp.jpg" class="rounded-circle ms-2"
+                        style="width: 48px; height: 48px; object-fit: cover;" alt="">
                 </div>
             </div>
         </div>
@@ -55,11 +55,13 @@
             <div class="row side-navbar">
                 <div class="col-md-2">
                     <ul class="side-nav">
-                        <li ><a href="../index.html"><img src="../images/home-2.png">Dashboard</a></li>
-                        <li ><a href="../com&director-profile/profilepage1.html" ><img src="../images/user.png">Profile</a></li>
+                        <li><a href="../index.html"><img src="../images/home-2.png">Dashboard</a></li>
+                        <li><a href="../com&director-profile/profilepage1.html"><img
+                                    src="../images/user.png">Profile</a></li>
                         <li><a href="notification.html"><img src="../images/notification.png">Notification</a></li>
                         <li><a href="inbox.html"><img src="../images/messages.png">Inbox</a></li>
-                        <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img src="../images/document1.png">Certification</a></li>
+                        <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img
+                                    src="../images/document1.png">Certification</a></li>
                     </ul>
                 </div>
                 <div class="col-md-10 cmp-pro" style="background-color: #EDF6F8;padding: 20px;">
@@ -67,16 +69,17 @@
                         <ul class="nav nav-tabs my-3">
                             <li><a href="certificationpage1.html">Agreements & NDAs</a></li>
                             <li><a href="certificationpage2.html">Halal certification application form</a></li>
-                            <li><a href="servicelist.html"  style="color: #0072DA;">Service Listing</a></li>
-                        </ul> 
+                            <li><a href="servicelist.html" style="color: #0072DA;">Service Listing</a></li>
+                        </ul>
                     </div>
 
                     <div class="row email-section" style="text-align: center;">
                         <div class="card" style=" border: none;">
                             <!-- <img src="../images/empty-mailbox.png" alt="Avatar" style="width:200px"> -->
                             <div class="container card-container" style="width: 500px;">
-                              <h4><img src="../images/clock.png"><b>Your application under progress </b></h4>
-                              <p >Once your application is approved can start filling the product details to complete the certification process</p>
+                                <h4><img src="../images/clock.png"><b>Your application under progress </b></h4>
+                                <p>Once your application is approved can start filling the product details to complete
+                                    the certification process</p>
                             </div>
                         </div>
                     </div>

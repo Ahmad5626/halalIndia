@@ -1,0 +1,86 @@
+.product-group {
+    background-color: #F9FAFC;
+    padding: 20px 15px;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+
+}
+
+.product-group .fisrt-product {
+    background-color: #fff;
+    padding: 8px;
+    width: 100%;
+    color: #0072DA;
+    border: 1px solid #0072DA;
+    border-radius: 5px;
+}
+
+.product-group .btn-product {
+    margin-top: 8px;
+    background-color: #ECECEC;
+    padding: 8px;
+    width: 100%;
+    color: #646464;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+}
+
+.product-cet .product-type p {
+    font-size: 14px;
+    color: #9A9A9A;
+}
+
+.product-cet .product-type strong {
+    font-size: 14px;
+    color: #313131;
+}
+
+.service-tab {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    padding-bottom: 8px;
+}
+
+.service-tab::-webkit-scrollbar {
+    /* width: 4px; */
+}
+
+/* width */
+.service-tab::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+
+/* Track */
+.service-tab::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.service-tab::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+
+}
+
+/* Handle on hover */
+.service-tab::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.service-tab a {
+    white-space: nowrap;
+}
+
+.service-tab a.completed {
+    border: 1px solid #36b37e;
+    color: #008F78!important;
+    background-color: #e1f4ec;
+}
+
+.service-tab a.active {
+    border: 1px solid #0072DA;
+    color: white!important;
+    background-color: #0072DA;
+}
