@@ -18,6 +18,7 @@ body {
 	margin: 0;
     font-family:Montserrat;
 }
+
 /* header css */
 .header-section{
     padding: 10px 5px;
@@ -100,9 +101,6 @@ display: inline-block;
    
 }
 
-
-/* side navigation */
-
 /* side navigation */
 .side-nav, ul, li{
     list-style: none;
@@ -124,7 +122,8 @@ display: inline-block;
 }
 .side-nav img{
     padding: 0 10px;
-}.bord-area{
+}
+.bord-area{
     background-color: #EDF6F9;
     padding: 20px;
 }
@@ -346,7 +345,7 @@ display: inline-block;
     font-size: 14px;
     color: #646464;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 .company-details input{
@@ -394,6 +393,7 @@ display: inline-block;
   width: 350px;
 }
 .doc-tab span{
+   
     float: left;
 }
 .document-img-sec{
@@ -406,17 +406,13 @@ display: inline-block;
 }
 .document-img-sec img{
     border: 5px solid #F9FAFC;
-
 }
 .doc-btn a{
     display: inline-block;
-    width: 200px;
+    width: 250px;
 }
 .cmp-pro-head h2{
     float: left;
-    font-size: 20px;
-    color: #313131;
-    font-weight: 700;
 }
 .cmp-pro-head .crt-btn{
     text-align: right;
@@ -424,20 +420,10 @@ display: inline-block;
     justify-content: center;
     align-items: center;
 }
-.cmp-pro h3{
-    font-size: 20px;
-    font-weight: 700;
-    color: #313131;
-}
-.crt-btn{
-    justify-content: center;
-    align-items: center;
-}
 .crt-btn1{
     border: 1px solid #9A9A9A;
     background-color: #F9FAFC;
     border-radius: 5px;
-    color:#9A9A9A
 }
 .crt-btn a{
     text-decoration: none;
@@ -452,44 +438,19 @@ display: inline-block;
     padding: 12px;
 }
 
-.manufacturing-form-radio .form-check label{
-    font-size: 16px;
-    font-weight: 600;
-    color: #111111;
- 
-}
-.submitdata-sec {
-    padding: 16px 0;
-}
-.submitdata-sec p{
-    font-size: 14px;
-    color: #A1A1A1;
-    margin: 0;
-    line-height: 1.4;
+
+
+/* Navbar Section  */
+
+.navbar{
+    padding:0;
 
 }
-.submitdata-sec h5{
-    color: #313131;
-    font-size: 14px;
+
+.nav-item{
+font-weight: 600;
+
 }
 
-.edit-aertmsgbox{
-    max-width: 500px;
-    float: left;
-    text-align: right;
+.navbar-nav .nav-link.active{
 }
-.email-section{
-    text-align: center;
-   
-}
-.email-section .card{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
-.card{
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-}
-
