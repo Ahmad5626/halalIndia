@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="ma-dashboard.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="js/include.js" defer></script>
+    <meta name="viewport" content="width=1024">
+
+    <title>Master Admin</title>
+</head>
+
+<body>
+
+    <header class="bg-white shadow-sm">
+        <div class="container-fluid row py-2">
+            <div class="col-md-6 d-flex align-items-center gap-5 px-5">
+                <div class="d-flex align-items-center">
+                    <img src="../images/head-img.png" alt="logo">
+                    <span class="ms-1 text-success fw-medium text-nowrap">Halal India</span>
+                </div>
+                <div class="border rounded-2 p-2 d-flex align-items-center">
+                    <img src="../images/search-normal.png" class="me-2" alt="">
+                    <input type="text" name="search" class="border-0" style="outline: none;"
+                        placeholder="Search for services">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-end gap-5 px-5">
+                <div class="d-flex gap-5">
+                    <a href="" class="text-decoration-none text-dark text-nowrap">About us</a>
+                    <a href="" class="text-decoration-none text-dark">Help</a>
+                </div>
+                <div class="p-2 d-flex align-items-center">
+                    <div class="d-flex flex-column text-end">
+                        <p class="m-0 p-0 fw-medium text-nowrap">Atif Khan</p>
+                        <p class="m-0 p-0 text-secondary" style="font-size: 12px;">18 April 2022, 11:34 am</p>
+                    </div>
+                    <img src="../images/dp.jpg" class="rounded-circle ms-2"
+                        style="width: 48px; height: 48px; object-fit: cover;" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row side-navbar">
+               <div class="col-md-2">
+                    <ul class="side-nav">
+                        <li class="active" href="crm-dashboard1.html"><a><img src="../images/dashboard-icon.png">Dashboard</a></li>
+                        <li><a href="Notification"><img src="../images/notification.png">Notification</a></li>
+                        <li><a href="Inbox/"><img src="../images/messages.png">Inbox</a></li>
+                        <li><a href="Led-center/"><img src="../images/document.png">Lead Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-10 bord-area">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card lead-card" >
+                                <div class="card-body">
+                                    <img src="../images/card1.png" alt="card-one">
+                                  <p class="card-text pt-2">New leads</p>
+                                  <span class="card-title">256</span><a href="#"><img src="../images/card1-arrow.png"></a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <div class="card-body">
+                                    <img src="../images/card2.png" alt="card-one">
+                                  <p class="card-text pt-2">Applications</p>
+                                  <span class="card-title">112<a href="#"><img src="../images/card2-arrow.png"></a></span>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="../images/card3.png" alt="card-one">
+                                  <p class="card-text pt-2">Approved Applications</p>
+                                  <span class="card-title">72<a href="#"><img src="../images/card3-arrow.png"></a></span>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="../images/card4.png" alt="card-one">
+                                  <p class="card-text pt-2">Allocated to Members</p>
+                                  <span class="card-title">45</span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-md-9">
+
+                            <div class="employees-attendance p-4" style="background-color: #fff;">
+                                <div class="emp-form d-flex">
+                                    <h3>Employees Attendance</h3>
+                                    <input type="text" placeholder="Search by employee name">
+                                </div>
+                                
+                                <table>
+                                  <thead>
+                                    <tr>
+                                      <th>#</th>
+                                      <th>Employee Name</th>
+                                      <th>Logged In</th>
+                                      <th>Logged Out</th>
+                                      <th>Department</th>
+                                      <th>Hours</th>
+                                      <th>Actions</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                     <td><img src="../images/t11.png" ></td>
+                                      <td>Atif Khan</td>
+                                    <!-- Repeat rows as needed -->
+                                      <td class="green">10:10 AM</td>
+                                      <td class="brown">07:20 PM</td>
+                                      <td>RND post audit</td>
+                                      <td>8h 20m</td>
+                                      <td class="crt-btn" style="text-align: right;">
+                                        <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                       <tr>
+                                        <td><img src="../images/t11.png" ></td>
+                                         <td>Atif Khan</td>
+                                       <!-- Repeat rows as needed -->
+                                         <td class="green">10:10 AM</td>
+                                         <td class="brown">07:20 PM</td>
+                                         <td>RND post audit</td>
+                                         <td>8h 20m</td>
+                                         <td class="crt-btn" style="text-align: right;">
+                                           <a href="#."><img src="../images/diagonal-arrow.png">Allocate</a>
+                                           </td>
+                                       </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                        </div>
+                        <div class="col-md-3" >
+                            <div class="department-targets py-4 px-2" style="background-color: #fff;">
+                                <div class="dep-head">
+                                    <h3>Department wise targets</h3>
+                                </div>
+                                <class class="input-group mb-3">
+                                    <select class="form-select" id="inputGroupSelect01">
+                                        <option selected>Month</option>
+                                        <option value="1">1</option>
+                                        
+                                    </select>
+                                </class>
+                                <p>July 2024</p>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="progressbar-heading">
+                                            <p>CRM</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="progress" style="height:40px;">
+                                            <div style="width:60%; background-color: #005447;"></div>
+                                            <span>20/40</span></div>
+                                    </div>
+                                </div>
+                                <!-- <div class="chart">
+                                  <div class="target">
+                                    <span>CRM</span>
+                                    <div class="progress-bar" style="width: 50%;"></div>
+                                    <span>20/40</span>
+                                  </div>
+                                  Repeat for other departments -->
+                                </div> 
+                              </div>
+                        </div>
+                        
+                    </div>
+                     <!-- Department wise targets -->
+       
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

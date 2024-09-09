@@ -1,0 +1,125 @@
+.text-green{
+    color: #36B37E;
+}
+.bord-area{
+    background-color: #EDF6F9;
+    padding: 20px;
+}
+.card-body{
+    min-height: 150px;
+}
+.card-body p{
+    font-size: 14px;
+    color: #646464;
+    font-weight: 600px;
+ 
+}
+.card-body span{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #313131;
+    line-height: 0.2;
+}
+.card-body a, img{
+    display: inline-block;
+    text-decoration: none;
+    max-width: 200px;
+    margin-right: 8px;
+}
+.crt-btn {
+    background-color: #F9FAFC;
+}
+
+.crt-btn a{
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px;
+    margin-right: 5px;
+    border: 1px solid #313131;
+    color: #313131;
+  
+
+}
+.bord-area .table-head th{
+    background-color: #F6F8FA !important;
+}
+.bord-area  th, td{
+    font-size: 12px;
+    color: #616161;
+}
+.bord-area h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.text-color{
+    color: #313131;
+}
+
+
+/* dashboard 2 page css */
+.bord-area{
+    position: relative;
+}
+.menu-box {
+    width: 180px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    right: 70px;
+    top: 0px;
+    z-index: 1;
+  
+  }
+  
+  .menu-item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .menu-item .icon {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .logout .icon {
+    color: red;
+  }
+  
+  .logout span {
+
+    color: red;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+   
+  }
+  /* dashboard 3 css */
+  .table-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+  }
+  .empty-state {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #999;
+  }
+
+
+
+  /* 
+   */
+
+   

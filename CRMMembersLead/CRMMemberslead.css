@@ -1,0 +1,159 @@
+main {
+    position: relative;
+    padding: 1rem 1rem 3rem;
+    min-height: calc(100vh - 4rem);
+  }
+  
+
+  
+  .hidden {
+    display: none;
+  }
+  
+  .pagination-container {
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0;
+    justify-content: center;
+  }
+  
+  .pagination-number,
+  .pagination-button{
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0.25rem;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: .2rem;
+  }
+  
+  .pagination-number:hover,
+  .pagination-button:not(.disabled):hover {
+    background: #fff;
+  }
+  
+  .pagination-number.active {
+    color: #fff;
+    background: #0085b6;
+  }
+  
+ .lead-1 .active1{
+  border-bottom: 2px solid #0085b6;
+  color: #0085b6 !important;
+ }
+ .lead-1 .active1 a{
+  color: #0085b6;
+ }
+
+ 
+.bord-area{
+  background-color: #EDF6F9;
+  padding: 20px;
+}
+.card-body{
+  min-height: 150px;
+}
+.card-body p{
+  font-size: 14px;
+  color: #646464;
+  font-weight: 600px;
+
+}
+.card-body span{
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #313131;
+  line-height: 0.2;
+}
+.card-body a, img{
+  display: inline-block;
+  text-decoration: none;
+  max-width: 200px;
+  margin-right: 8px;
+}
+.crt-btn {
+  background-color: #F9FAFC;
+}
+
+.crt-btn a{
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px;
+  margin-right: 5px;
+  border: 1px solid #313131;
+  color: #313131;
+
+
+}
+.lead-tab thead tr{
+  background-color: #DFE3EC !important;
+}
+.lead-tabel th td{
+  font-size: 12px;
+  color: #616161;
+}
+.pagination li a{
+  color: #005447;
+}
+.pagination li a .active{
+background-color: #005447;
+color: white;
+}
+
+.popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+ 
+  justify-content: center;
+    align-items: center;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  
+  justify-content: center;
+  align-items: center
+}
+.popup-content{
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+  text-align: center;
+}
+.card-body{
+  text-align: left;
+}
+.Confirm{
+  font-size: 13px;
+}
+
+.click{
+  display: flex;
+}
+.filter-button{
+  position: relative;
+}
+.filter-button-dropdown{
+  position: absolute;
+ width: 200px;
+
+ top:  60px;
+ right: 0px;
+ background-color: white;
+ z-index: 1000000;
+ text-align: left;
+display: none;
+}
+
+.showfilter{
+  display: block;
+}
