@@ -20,44 +20,6 @@
 </head>
 
 <body>
-    <!-- ADD 'modal-open' class to body when modal open/show -->
-    <!-- <div class="customModal">
-        <div class="modalContent">
-            <div class="d-flex align-items-center justify-content-between px-3 py-2 border-bottom">
-                <p class="m-0 fs-5 fw-bold">Generate Credentials</p>
-                <button class="btn p-0 fs-5"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div class="p-4 text-dark">
-                <p class="fw-medium">Generating credentials for</p>
-                <p class="mb-1 fw-medium">Atif khan</p>
-                <p class="mb-1 fw-medium">+91-9897765443</p>
-                <p class="text-secondary">Medical tourism assistance</p>
-            </div>
-            <form class="px-4">
-                <div>
-                    <label class="form-label" for="email">Email</label>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Enter email">
-                        <button class="btn btn-outline-secondary"><i
-                                class="fa-regular fa-pen-to-square me-1"></i>Edit</button>
-                    </div>
-                    <span class="text-secondary" style="font-size: 14px;">Confirm email address with the client before
-                        generating password</span>
-                </div>
-                <div class="mt-3">
-                    <label class="form-label" for="password">Password</label>
-                    <div class="input-group">
-                        <input type="password" class="form-control" placeholder="Your password will generate here">
-                        <button class="btn btn-outline-secondary"><i
-                                class="fa-regular fa-pen-to-square me-1"></i>Generate</button>
-                    </div>
-                </div>
-                <div class="text-end">
-                    <button class="btn mt-4 text-light fw-medium" style="background-color: #36B37E;">Confirm and Send</button>
-                </div>
-            </form>
-        </div>
-    </div> -->
     <header class="bg-white shadow-sm">
         <div class="container-fluid row py-2">
             <div class="col-md-6 d-flex align-items-center gap-5 px-5">
@@ -99,20 +61,11 @@
                             <li><a href="notification.html"><img src="../images/notification.png">Notification</a></li>
                             <li><a href="inbox.html"><img src="../images/messages.png">Inbox</a></li>
                             <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img
-                                        src="../images/document1.png">Lead Center</a></li>
+                                        src="../images/document1.png">Certification</a></li>
                         </ul>
                     </div>
+
                     <div class="col-md-10 cmp-pro" style="background-color: #EDF6F8;padding: 20px;">
-                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item px-0"><a href="#">Lead Center</a></li>
-                                <li class="breadcrumb-item pe-0"><a href="#">Profile</a></li>
-                                <li class="breadcrumb-item pe-0"><a href="#">Applications</a></li>
-                                <li class="breadcrumb-item pe-0 text-dark fw-medium" aria-current="page">Company details
-                                </li>
-                            </ol>
-                        </nav>
-                        <p class="fw-bold my-3 fs-5">Company Details</p>
                         <div class="row bg-white p-3 rounded-2 border mb-2">
                             <div class="col-4 d-flex align-items-center gap-4">
                                 <img src="../images/savoryBitesProfile.png" class="rounded-circle" style="width: 100px;"
@@ -144,57 +97,90 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row tap-section p-3" style="background-color: #FFFFFF;">
-                            <ul class="nav nav-tabs my-1">
-                                <li><a href="certificationpage1.html" style="color: #0072DA;">Agreements & NDAs</a></li>
-                                <li><a href="certificationpage2.html">Halal certification application form</a></li>
-                                <li><a href="servicelist.html">Service Listing</a></li>
+                            <ul class="nav nav-tabs">
+                                <li><a href="certificationpage1.html">Agreements & NDAs</a></li>
+                                <li><a href="certificationpage2.html">Halal certification
+                                        application form</a></li>
+                                <li><a href="servicelist.html" style="color: #0072DA;">Service Listing</a></li>
                             </ul>
+                        </div>
+
+                        <div class="row company-profile" style="background-color: #FFFFFF;">
                             <div class="mt-3">
-                                <div class="border rounded-2 bg-body-tertiary">
-                                    <p class="m-0 p-2 text-center">Following Agreements and NDAs are required for the
-                                        certification</p>
+                                <div class="border rounded-2 service-tab bg-body-tertiary p-2">
+                                    <button class="btn completed">Product listing</button>
+                                    <button class="btn completed">Raw material / Ingredient list</button>
+                                    <button class="btn completed">Product specification</button>
+                                    <button class="btn active">COA (Certificate of analysis)</button>
                                 </div>
                             </div>
-                            <div class="mt-5 mb-4 d-flex justify-content-between align-items-center">
-                                <p class="fw-bold m-0 fs-5">List</p>
-                                <button class="btn btn-outline-secondary"><i
-                                        class="fa-solid fa-download me-1"></i>Download
-                                    All</button>
+                            <div class="cmp-pro-head d-flex justify-content-between mt-1 py-2">
+                                <h2>COA (Certificate of analysis)</h2>
+                                <div>
+                                    <button class="btn border"><i class="fa-solid fa-download"></i>Download</button>
+                                    <button class="btn border"><i class="fa-solid fa-edit"></i>Edit</button>
+                                </div>
                             </div>
                             <hr>
-                            <div class="mb-5">
-                                <div
-                                    class="d-flex justify-content-between align-items-center border py-2 px-4 mb-2 rounded-2 bg-body-tertiary">
-                                    <p class="m-0 p-0"><i class="fa-regular fa-file me-2"></i>Non disclosure agreement
-                                    </p>
-                                    <div class="d-flex gap-2">
-                                        <button class="btn btn-outline-secondary"><i
-                                                class="fa-solid fa-download me-1"></i>Download</button>
-                                        <button class="btn fw-bold text-light"
-                                            style="background-color: #36B37E;">Accepted</button>
-                                        <!-- <button class="btn fw-bold text-light"
-                                        style="background-color: #FB8F00;">Pending</button> -->
-                                    </div>
-                                </div>
-                                <div
-                                    class="d-flex justify-content-between align-items-center border py-2 px-4 mb-2 rounded-2 bg-body-tertiary">
-                                    <p class="m-0 p-0"><i class="fa-regular fa-file me-2"></i>Non disclosure agreement
-                                    </p>
-                                    <div class="d-flex gap-2">
-                                        <button class="btn btn-outline-secondary"><i
-                                                class="fa-solid fa-download me-1"></i>Download</button>
-                                        <button class="btn fw-bold text-light"
-                                            style="background-color: #36B37E;">Accepted</button>
-                                        <!-- <button class="btn fw-bold text-light"
-                                        style="background-color: #FB8F00;">Pending</button> -->
-                                    </div>
+                            <div>
+                                <table class="table mb-5" style="width: 100%;">
+                                    <thead class="table-light border">
+                                        <tr>
+                                            <th class="py-3 text-secondary fw-medium">SL No.</th>
+                                            <th class="py-3 text-secondary fw-medium">COA Product name</th>
+                                            <th class="py-3 text-secondary fw-medium">COA certification provider</th>
+                                            <th class="py-3 text-secondary fw-medium">Manager of Laboratory</th>
+                                            <th class="py-3 text-secondary fw-medium">Contact no</th>
+                                            <th class="py-3 text-secondary fw-medium">Certification upload</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="py-3">1</td>
+                                            <td class="py-3">Beef bar</td>
+                                            <td class="py-3">SK Laboratories</td>
+                                            <td class="py-3">Ahmed Maqsood</td>
+                                            <td class="py-3">9876543219</td>
+                                            <td class="py-3"><a href="#" class="text-decoration-none">bill8.pdf</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="py-3">Oat meal</td>
+                                            <td class="py-3">SK Laboratories</td>
+                                            <td class="py-3">Ahmed Maqsood</td>
+                                            <td class="py-3">9876543219</td>
+                                            <td class="py-3"><a href="#" class="text-decoration-none">bill8.pdf</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="py-3">Oat meal</td>
+                                            <td class="py-3">SK Laboratories</td>
+                                            <td class="py-3">Ahmed Maqsood</td>
+                                            <td class="py-3">9876543219</td>
+                                            <td class="py-3"><a href="#" class="text-decoration-none">bill8.pdf</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="py-3">Oat meal</td>
+                                            <td class="py-3">SK Laboratories</td>
+                                            <td class="py-3">Ahmed Maqsood</td>
+                                            <td class="py-3">9876543219</td>
+                                            <td class="py-3"><a href="#" class="text-decoration-none">bill8.pdf</a></td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <div class="form-btn doc-btn">
+                                    <a class="" href="./servicepro11.html">Back</a>
+                                    <a class="active" href="./servicepro13.html" style="color: #fff;">Approve and
+                                        Continue</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
 

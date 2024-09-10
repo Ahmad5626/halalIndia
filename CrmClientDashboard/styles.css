@@ -1,0 +1,38 @@
+textarea {
+    resize: none!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.modal-open {
+    overflow-y: hidden !important;
+}
+
+.customModal {
+    position: absolute;
+    display: grid;
+    place-content: center;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    backdrop-filter: blur(1px) brightness(0.75);
+}
+
+.modalContent {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+}
