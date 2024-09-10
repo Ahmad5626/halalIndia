@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="shariah-mem-lead.css"> 
+    <link rel="stylesheet" type="text/css" href="paymentdate.css">
+    <link rel="stylesheet" type="text/css" href="master-admin-finance.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
@@ -14,7 +15,7 @@
     <script src="js/include.js" defer></script>
     <meta name="viewport" content="width=1024">
 
-    <title>RND post Audit Lead Center</title>
+    <title>Master Admin finance</title>
 </head>
 
 <body>
@@ -53,62 +54,87 @@
             <div class="row side-navbar">
                <div class="col-md-2">
                     <ul class="side-nav">
-                        <li href="finance-lead-center1.html"><a><img src="../images/home-2.png">Dashboard</a></li>
+                        <li href="../Master-Admin/master-admin-dash.html"><a><img src="../images/home-2.png">Dashboard</a></li>
                         <li><a href="Notification"><img src="../images/notification.png">Notification</a></li>
                         <li><a href="Inbox/"><img src="../images/messages.png">Inbox</a></li>
-                        <li  class="active"><a href="Led-center/" style="color: #fff;"><img src="../images/document1.png">Lead Center</a></li>
+                        <li  class="active"><a href="master-admin-finance1.html" style="color: #fff;"><img src="../images/finance.png">Finance</a></li>
+                        <li href="finance-lead-center1.html"><a><img src="../images/user.png">Users</a></li>
+                        <li><a href="Notification"><img src="../images/document.png">Reports</a></li>
+                        <li><a href="Inbox/"><img src="../images/file.png">Data Centre</a></li>
+                        <li  class=""><a href="Led-center/"><img src="../images/global.png">Website</a></li>
                     </ul>
                 </div>
                 <div class="col-md-10 bord-area">
-                    <h2>Lead Center</h2>
-                    
                     <div class="row p-2">
-                       
                         <div class=" mt-4 bord-area"  style="background-color: #fff;">
-                            <div class="audit-tab">
-                                <ul class="nav">
-                                    <li class="nav-item" >
-                                      <a class="nav-link" style="color: #0072DA;" aria-current="page" href="shariah-mem-lead1.html">Leads</a>
-                                    </li>
-                                   
-                                </ul>
-                                <hr>
-                            </div>
-                            
                             <div class="header pb-4">
-                                <div class="audit-tab">
-                                    <ul class="nav">
-                                        <li class="nav-item" >
-                                          <a class="nav-link" style="color: #0072DA;" aria-current="page" href="shariah-mem-lead1.html">Leads</a>
-                                        </li>
-                                       
-                                    </ul>
-                                    <hr>
-                                </div>
-                                
+                                <h2>Finance</h2>
                                 <div class="search-bar">
                                     <div class="border rounded-3 p-2 d-flex align-items-center">
                                         <img src="../images/search-normal.png" class="me-2" alt="">
                                         <input type="text" name="search" class="border-0" style="outline: none;"
                                             placeholder="Search for services">
-                                            
                                     </div>
-                                    <a href="#."><img src="../images/search-icon.png" height="55px"></a>
-                                    
                                 </div>
                             </div>
-                            
                             <table class=" table-custom">
-                          
+                                <div class="date-box p-4" id="menu-box">
+                                    <div class="date-select pb-3">
+                                       <h3>Sort by Industry</h3>
+                                    </div>
+                                    <div class="form-check pb-2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          <h6>Food</h6>
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                         <h6>Pharma</h6>
+                                        </label>
+                                      </div>
+                                      <div class="form-check pb-2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          <h6>Cosmetic</h6>
+                                        </label>
+                                      </div>
+                                      <div class="form-check pb-2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          <h6>Restaurants</h6>
+                                        </label>
+                                      </div>
+                                      <div class="form-check pb-2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          <h6>Butcher Shop</h6>
+                                        </label>
+                                      </div>
+                                      <div class="form-check pb-2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          <h6>Hospital</h6>
+                                        </label>
+                                      </div>
+                                      <div class="form-check pb-2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          <h6>Star hotels</h6>
+                                        </label>
+                                      </div>
+                                    
+                                </div>
                                 <thead class="table-head">
                                   <tr>
                                     <th>#</th>
                                     <th>Company Name</th>
-                                    <th>App No.</th>
-                                    <th>Date</th>
-                                    <th>Industry</th>
+                                    <th>Issue date<a href="#."><img src="../images/arrow-square.png" class="px-2"></a></th>
+                                    <th>Payment date<a href="#."><img src="../images/arrow-square.png" class="px-2"></a></th>
+                                    <th>Industry<a href="#."><img src="../images/arrow-square.png" class="px-2"></a></th>
                                     <th>Mobile Number</th>
-                                    <th>Status</th>
+                                    <th>Status<a href="#."><img src="../images/arrow-square.png" class="px-2"></a></th>
                                     <th style="text-align: right;">Actions</th>
                                   </tr>
                                 </thead>
@@ -116,140 +142,140 @@
                                     <tr>
                                         <td><img src="../images/t6.png" ></td>
                                         <td class="td-properties">Savorybites</td>
-                                        <td>1234</td>
+                                        <td>12/01/24</td>
                                         <td>24/01/24</td>
                                         <td class="td-properties">Fitness</td>
                                         <td class="td-properties">+966563912928</td>
-                                        <td class="safe">Safe</td>
+                                        <td class="safe">Paid</td>
                                         <td class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr>
                                         <td><img src="../images/t8.png"></td>
                                         <td class="td-properties">Bab assalam</td>
-                                        <td>01234</td>
-                                        <td>24/01/24</td>
-                                        <td class="td-properties">Food</td>
+                                        <td>012/01/24</td>
+                                        <td>N/A</td>
+                                        <td class="td-properties">Pending</td>
                                         <td class="td-properties">+966563912928</td>
-                                        <td class="doubtful">Doubtful</td>
+                                        <td class="doubtful">Pending</td>
                                         <td class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr>
                                         <td><img src="../images/t9.png" ></td>
                                         <td class="td-properties">Fourr</td>
-                                        <td>1234</td>
+                                        <td>12/01/24</td>
                                         <td>24/01/24</td>
                                         <td class="td-properties">Cosmeceutical</td>
                                         <td class="td-properties">+966563912928</td>
-                                        <td class="Critical">Critical</td>
+                                        <td class="safe">Paid</td>
                                         <td class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png">View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr>
                                         <td><img src="../images/t12.png" ></td>
                                         <td class="td-properties">Restaurant Depot</td>
-                                        <td>1234></td>
-                                        <td>24/01/24</td>
+                                        <td>12/01/24></td>
+                                        <td>N/A</td>
                                         <td class="td-properties">Cosmeceutical</td>
                                         <td class="td-properties">966563912928</td>
-                                        <td class="safe">Safe</td>
+                                        <td class="doubtful">Pending</td>
                                         <td class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr>
                                         <td><img src="../images/t12.png" ></td>
                                         <td class="td-properties">Restaurant Depot</td>
-                                        <td>1234></td>
-                                        <td>24/01/24</td>
+                                        <td>12/01/24></td>
+                                        <td>N/A</td>
                                         <td class="td-properties">Cosmeceutical</td>
                                         <td class="td-properties">966563912928</td>
-                                        <td class="safe">Safe</td>
+                                        <td class="Critical">Cancelled</td>
                                         <td colspan="3" class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr>
                                         <td><img src="../images/t13.png" ></td>
                                         <td class="td-properties">Food 52</td>
-                                        <td>1234</td>
+                                        <td>12/01/24</td>
                                         <td>24/01/24</td>
                                         <td class="td-properties">Non Food</td>
                                         <td class="td-properties">966563912928</td>
-                                        <td class="safe">Safe</td>
+                                        <td class="safe">Paid</td>
                                         <td colspan="3" class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr >
                                         <td><img src="../images/t8.png" ></td>
                                         <td class="td-properties">Bab assalam</td>
-                                        <td><img src="../images/run.png"></td>
+                                        <td>12/01/24</td>
                                         <td>24/01/24</td>
                                         <td class="td-properties">Food</td>
                                         <td class="td-properties">+966558441499</td>
-                                        <td class="doubtful">Doubtful</td>
+                                        <td class="safe">Paid</td>
                                         <td class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
-                                            
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><img src="../images/t13.png" ></td>
-                                        <td class="td-properties">Food 52</td>
-                                        <td>1234</td>
-                                        <td>24/01/24</td>
-                                        <td class="td-properties">Non Food</td>
-                                        <td class="td-properties">966563912928</td>
-                                        <td class="safe">Safe</td>
-                                        <td colspan="3" class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr>
                                         <td><img src="../images/t9.png" ></td>
                                         <td class="td-properties">Fourr</td>
-                                        <td>1234</td>
+                                        <td>12/01/24</td>
                                         <td>24/01/24</td>
                                         <td class="td-properties">Cosmeceutical</td>
                                         <td class="td-properties">+966563912928</td>
-                                        <td class="Critical">Critical</td>
+                                        <td class="safe">Paid</td>
                                         <td class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="../images/t13.png" ></td>
-                                        <td class="td-properties">Food 52</td>
-                                        <td>1234</td>
+                                        <td><img src="../images/t9.png" ></td>
+                                        <td class="td-properties">Fourr</td>
+                                        <td>12/01/24</td>
                                         <td>24/01/24</td>
-                                        <td class="td-properties">Non Food</td>
-                                        <td class="td-properties">966563912928</td>
-                                        <td class="safe">Safe</td>
-                                        <td colspan="3" class="crt-btn" style="text-align: right;">
-                                            <a href="#."><img src="../images/tbl-allocate.png">Allocate</a>
-                                            <a href="#."><img src="../images/diagonal-arrow.png">Go to dashboard</a>
+                                        <td class="td-properties">Cosmeceutical</td>
+                                        <td class="td-properties">+966563912928</td>
+                                        <td class="safe">Paid</td>
+                                        <td class="crt-btn" style="text-align: right;">
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
+                                            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../images/t9.png" ></td>
+                                        <td class="td-properties">Fourr</td>
+                                        <td>12/01/24</td>
+                                        <td>24/01/24</td>
+                                        <td class="td-properties">Cosmeceutical</td>
+                                        <td class="td-properties">+966563912928</td>
+                                        <td class="safe">Paid</td>
+                                        <td class="crt-btn" style="text-align: right;">
+                                             
+                                            <a href="#."><img src="../images/diagonal-arrow.png"> View Invoice</a>
                                             
                                         </td>
                                     </tr>
