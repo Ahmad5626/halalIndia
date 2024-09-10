@@ -40,6 +40,8 @@
     background-color: #F9FAFC;
 }
   
+
+}
 .bord-area .table-head th{
     background-color: #F6F8FA !important;
 }
@@ -159,3 +161,62 @@
     background-color: #ecf0f1;
   }
   
+  .employees-attendance button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .department-targets {
+    margin-top: 30px;
+  }
+  .department-targets .dep-head{
+    font-size: 16px;
+    font-weight:bolder;
+    margin: 15px 0;
+    padding: 10px;
+    padding-top: 18px;
+    border-radius: 10px;
+    border: 1px solid #FBFBFB;
+    background-color: #FBFBFB;
+  }
+  .department-targets p{
+    color: #313131;
+    font-size: 12px;
+    text-align: center;
+  }
+  .progressbar-heading p{
+    background-color: #E8DBFF;
+    font-size: 12px;
+    color: #313131;
+    padding: 10px 12px;
+    border-radius: 8px;
+    width: 100px;
+    text-align: left;
+  }
+  .progress span{
+    display: inline-block;
+    text-align:right;
+  }
+  .chart .target {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .chart .progress-bar {
+    height: 10px;
+    background-color: #27ae60;
+    margin: 0 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+  }
+  .green{
+    color: #36B37E;
+  }
+  .brown{
+    color: #CC3931;
+  }
