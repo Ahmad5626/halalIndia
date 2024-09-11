@@ -1,3 +1,33 @@
+.service-tab {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    padding-bottom: 8px;
+}
+
+/* width */
+.service-tab::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+
+/* Track */
+.service-tab::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.service-tab::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+
+}
+
+/* Handle on hover */
+.service-tab::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .service-tab button {
     white-space: nowrap;
 }

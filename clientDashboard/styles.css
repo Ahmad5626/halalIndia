@@ -1,3 +1,7 @@
+table tbody tr.active td{
+    background-color: #EDF6F8;
+}
+
 .service-tab button {
     white-space: nowrap;
 }
