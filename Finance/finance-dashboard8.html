@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./finance-dashboard.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../js/include.js" defer></script>
+
+    <title>Client Portal</title>
+</head>
+
+<body class="modal-open">
+    <div class="customModal">
+        <div class="modalContent" style="height: 324px;">
+            <div class="d-flex align-items-center justify-content-between px-3 py-2 border-bottom">
+                <p class="m-0 fs-5 fw-bold">Generate Payment link</p>
+                <button class="btn p-0 fs-5"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="row p-3">
+                <div class="col-6">
+                    <label for="" class="form-label">Email</label>
+                    <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="col-6">
+                    <label for="" class="form-label">Mobile Number</label>
+                    <input type="number" name="" id="" class="form-control">
+                </div>
+                <div class="col-6">
+                    <label for="" class="form-label">Amount</label>
+                    <input type="number" name="" id="" class="form-control">
+                </div>
+            </div>
+            <div class="w-75 mx-auto mt-4 d-flex justify-content-between gap-2">
+                <button class="btn btn-outline-dark w-100 mt-3 w-100">Review back</button>
+                <button class="btn btn-success w-100 mt-3 w-100">Generate & send</button>
+            </div>
+        </div>
+    </div>
+    <header class="bg-white shadow-sm">
+        <div class="container-fluid row py-2">
+            <div class="col-md-6 d-flex align-items-center gap-5 px-5">
+                <div class="d-flex align-items-center">
+                    <img src="../images/head-img.png" alt="logo">
+                    <span class="ms-1 text-success fw-medium text-nowrap">Halal India</span>
+                </div>
+                <div class="border rounded-2 p-2 d-flex align-items-center">
+                    <img src="../images/search-normal.png" class="me-2" alt="">
+                    <input type="text" name="search" class="border-0" style="outline: none;"
+                        placeholder="Search for services">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-end gap-5 px-5">
+                <div class="d-flex gap-5">
+                    <a href="" class="text-decoration-none text-dark text-nowrap">About us</a>
+                    <a href="" class="text-decoration-none text-dark">Help</a>
+                </div>
+                <div class="p-2 d-flex align-items-center">
+                    <div class="d-flex flex-column text-end">
+                        <p class="m-0 p-0 fw-medium text-nowrap">Atif Khan</p>
+                        <p class="m-0 p-0 text-secondary" style="font-size: 12px;">18 April 2022, 11:34 am</p>
+                    </div>
+                    <img src="../images/dp.jpg" class="rounded-circle ms-2"
+                        style="width: 48px; height: 48px; object-fit: cover;" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="row side-navbar">
+                    <div class="col-md-2">
+                        <ul class="side-nav">
+                            <li><a href="../index.html"><img src="../images/home-2.png">Dashboard</a></li>
+                            <li><a href="../com&director-profile/profilepage1.html"><img
+                                        src="../images/user.png">Profile</a></li>
+                            <li><a href="notification.html"><img src="../images/notification.png">Notification</a></li>
+                            <li><a href="inbox.html"><img src="../images/messages.png">Inbox</a></li>
+                            <li class="active"><a href="../NDA/certificationpage1.html" style="color: #fff"><img
+                                        src="../images/document1.png">Lead Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10 cmp-pro" style="background-color: #EDF6F8;padding: 20px;">
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item px-0"><a href="#">Lead Center</a></li>
+                                <li class="breadcrumb-item pe-0"><a href="#">Profile</a></li>
+                                <li class="breadcrumb-item pe-0"><a href="#">Applications</a></li>
+                                <li class="breadcrumb-item pe-0 text-dark fw-medium" aria-current="page">Company details
+                                </li>
+                            </ol>
+                        </nav>
+                        <div>
+                            <p class="fw-bold my-3 fs-5">Halal service subscription donation receipt</p>
+                            <div class="row tap-section p-3" style="background-color: #FFFFFF;">
+                                <p class="fw-bold fs-5">Section 1</p>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="date" class="form-label text-secondary">Date</label>
+                                        <p>24/06/2024</p>
+                                    </div>
+                                    <div class="row col-8 mt-4">
+                                        <div class="col-6">
+                                            <p class="mb-1 text-secondary">Raised by</p>
+                                            <p>HALAL INDIA RESEARCH COUNCIL
+                                                919, EVR PERIYAR SALAI, 1ST LANE PURASAWALKAM, CHENNAI 600086. </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-1 text-secondary">Raised to</p>
+                                            <p>Savory bites
+                                                P block, Anna Nagar, Chennai, Tamil </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-1 text-secondary">Industry type</p>
+                                            <p>Fitness</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-1 text-secondary">No of Products</p>
+                                            <p>4</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-1 text-secondary">City</p>
+                                            <p>Chennai</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-1 text-secondary">Zip Code</p>
+                                            <p>600001</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <table class="table mt-4">
+                                    <thead class="border">
+                                        <tr>
+                                            <th>SL No.</th>
+                                            <th>Particular</th>
+                                            <th>Number of products</th>
+                                            <th>Service fee (In INR)</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Halal Product Scheme</td>
+                                        <td>100</td>
+                                        <td>2000 INR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Halal Product Scheme</td>
+                                        <td>100</td>
+                                        <td>2000 INR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Halal Product Scheme</td>
+                                        <td>100</td>
+                                        <td>2000 INR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Halal Product Scheme</td>
+                                        <td>100</td>
+                                        <td>2000 INR</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="fw-medium">Sub total</td>
+                                        <td>5200 INR</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="fw-medium">Subsidy/Discount</td>
+                                        <td class="text-danger">1000 INR</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="fw-medium">Total amount</td>
+                                        <td>5200 INR</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="bg-white p-4">
+                                <div class="text-end mb-4">
+                                    <img src="../images/image 11.png" style="width: 100px;" alt="">
+                                    <img src="../images/signature.png" style="width: 100px;" alt="">
+                                </div>
+                                <div class="d-flex justify-content-end gap-2 ">
+                                    <button class="btn btn-outline-danger">Discard</button>
+                                    <button class="btn" style="background-color: #008F78; color: #fff;">Generate
+                                        invoice</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
