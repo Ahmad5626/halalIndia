@@ -1,0 +1,279 @@
+main {
+    position: relative;
+    padding: 1rem 1rem 3rem;
+    min-height: calc(100vh - 4rem);
+  }
+  
+
+  
+  .hidden {
+    display: none;
+  }
+  
+  .pagination-container {
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0;
+    justify-content: center;
+  }
+  
+  .pagination-number,
+  .pagination-button{
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0.25rem;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: .2rem;
+  }
+  
+  .pagination-number:hover,
+  .pagination-button:not(.disabled):hover {
+    background: #fff;
+  }
+  
+  .pagination-number.active {
+    color: #fff;
+    background: #0085b6;
+  }
+  
+ .lead-1 .active1{
+  border-bottom: 2px solid #0085b6;
+  color: #0085b6 !important;
+ }
+ .lead-1 .active1 a{
+  color: #0085b6;
+ }
+
+ 
+.bord-area{
+  background-color: #EDF6F9;
+  padding: 20px;
+}
+.card-body{
+  min-height: 150px;
+}
+.card-body p{
+  font-size: 14px;
+  color: #646464;
+  font-weight: 600px;
+
+}
+.card-body span{
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #313131;
+  line-height: 0.2;
+}
+.card-body a, img{
+  display: inline-block;
+  text-decoration: none;
+  max-width: 200px;
+  margin-right: 8px;
+}
+.crt-btn {
+  background-color: #F9FAFC;
+}
+
+.crt-btn a{
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px;
+  margin-right: 5px;
+  border: 1px solid #313131;
+  color: #313131;
+
+
+}
+.lead-tab thead tr{
+  background-color: #DFE3EC !important;
+}
+.lead-tabel th td{
+  font-size: 12px;
+  color: #616161;
+}
+.pagination li a{
+  color: #005447;
+}
+.pagination li a .active{
+background-color: #005447;
+color: white;
+}
+
+.popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+ 
+  justify-content: center;
+    align-items: center;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 11111;
+  justify-content: center;
+  align-items: center
+}
+.popup-content{
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+}
+.card-body{
+  text-align: left;
+}
+.Confirm{
+  font-size: 13px;
+}
+
+.click{
+  display: flex;
+}
+.filter-button{
+  position: relative;
+}
+.filter-button-dropdown{
+  position: absolute;
+ width: 200px;
+
+ top:  60px;
+ right: 0px;
+ background-color: white;
+ z-index: 1000000;
+ text-align: left;
+display: none;
+}
+
+.showfilter{
+  display: block;
+}
+.add-logo{
+    background-color: #DBEEFF !important;
+    border : 1px solid #DBEEFF;
+    border-radius: 5px;
+    font-weight: bold !important;
+    margin-left: 10px;
+    padding: 5px 5px;
+}
+.globel-logo{
+    background-color:white;
+    border : 1px solid #DBEEFF;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+
+
+.service-tab button.completed {
+    border: 1px solid #36b37e;
+    color: #008F78 !important;
+    background-color: #e1f4ec;
+}
+
+.service-tab button.active {
+    border: 1px solid #0072DA;
+    color: white !important;
+    background-color: #0072DA;
+}
+
+
+table tbody tr.active td{
+    background-color: #EDF6F8;
+}
+
+.service-tab button {
+    white-space: nowrap;
+}
+
+.service-tab button.completed {
+    border: 1px solid #36b37e;
+    color: #008F78 !important;
+    background-color: #e1f4ec;
+}
+
+.service-tab button.active {
+    border: 1px solid #0072DA;
+    color: white !important;
+    background-color: #0072DA;
+}
+
+product-group {
+    background-color: #F9FAFC;
+    padding: 20px 15px;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+}
+
+.product-group .fisrt-product {
+    background-color: #fff;
+    padding: 8px;
+    width: 100%;
+    color: #0072DA;
+    border: 1px solid #0072DA;
+    border-radius: 5px;
+}
+
+.product-group .btn-product {
+    margin-top: 8px;
+    background-color: #ECECEC;
+    padding: 8px;
+    width: 100%;
+    color: #646464;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+}
+
+.product-cet .product-type p {
+    font-size: 14px;
+    color: #9A9A9A;
+}
+
+.product-cet .product-type strong {
+    font-size: 14px;
+    color: #313131;
+}
+
+.modal-open {
+    overflow-y: hidden !important;
+}
+
+.customModal {
+    position: absolute;
+    display: grid;
+    place-content: center;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    backdrop-filter: blur(1px) brightness(0.75);
+}
+
+.modalContent {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.dialogBtn button:hover{
+    background-color: #FB8F00!important;
+    border-color: #FB8F00!important; ;
+}
+
+.dialogBtn button:active{
+    background-color: #FB8F00!important;
+    border-color: #FB8F00!important; ;
+}
